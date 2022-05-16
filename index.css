@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #9dabc0;
+	font-family: "Times New Roman";
+}
+body{
+	background: #f0f0f0;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	display: none;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 170px;
+}
+
+
+
+
+
+
+.nav-btn{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	margin: 20px;
+	text-align: center;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+	box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
+}
+.btn-container{
+	text-align: center;
+}
+.btn-container a{
+	display: inline-block;
+	width: 230px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 20px;
+	background: #f0f0f0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	text-align: center;
+	margin:40px 30px;
+	transition: box-shadow .4s ease-in-out;
+	border-radius: 10px;
+}
+.btn-container a:hover{
+	box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
+}
+
+
+
+
+
+
+
+
+
+nav{
+	display: none;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: ;
+	text-align: left;
+}
+nav ul{
+	display: none;
+	width:250px;
+	height: 100vh;
+	background: #f0f0f0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+}
+nav li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 50px;
+	font-size: 14px;
+	font-family: "Hiragino Sans";
+	font-weight: 500;
+	text-align: left;
+	cursor: pointer;
+	transition:all 0.3s;
+	white-space: nowrap;
+}
+nav li:hover{
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+nav span{
+	float: right;
+}
+.hide-btn{
+	padding: 0 45px;
+	height: 96px;
+	text-align: right;
+	transition:all 0.3s;
+	cursor: pointer;
+}
+.hide-btn span{
+	font-size: 30px;
+	line-height: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+ 
+	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+	*{
+		margin: 0;
+		padding: 0;
+		font-weight: normal;
+		color: #9dabc0;
+		font-family: "Times New Roman";
+	}
+	body{
+		background: #f0f0f0;
+	}
+	a{
+		text-decoration: none;
+	}
+	h1{
+		display: none;
+		font-size: 65px;
+		text-align: center;
+		margin-top: 220px;
+	}
+
+
+
+
+
+
+	.nav-btn{
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+		margin: 20px;
+		text-align: center;
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		-moz-osx-font-smoothing: grayscale;
+	    -webkit-font-smoothing: antialiased;
+	    display: inline-block;
+	    font-style: normal;
+	    font-variant: normal;
+	    text-rendering: auto;
+	    box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+	.nav-btn:hover{
+		box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
+	}
+
+
+
+
+
+
+	.btn-container{
+		text-align: center;
+	}
+	.btn-container a{
+		display: inline-block;
+		width: 150px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 18px;
+		background: #f0f0f0;
+		box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+		text-align: center;
+		margin:25px 10px;
+		transition: box-shadow .4s ease-in-out;
+		border-radius: 7px;
+	}
+	.btn-container a:hover{
+		box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
+	}
+ 
+
+
+
+
+
+
+
+
+
+nav{
+	display: none;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: ;
+	text-align: left;
+}
+nav ul{
+	display: none;
+	width:100vw;
+	height: 100vh;
+	background: #f0f0f0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+}
+nav li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 50px;
+	font-size: 14px;
+	font-family: "Hiragino Sans";
+	font-weight: 500;
+	text-align: left;
+	cursor: pointer;
+	transition:all 0.3s;
+	white-space: nowrap;
+}
+nav li:hover{
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+nav span{
+	float: right;
+}
+.hide-btn{
+	padding: 0 45px;
+	height: 96px;
+	text-align: right;
+	transition:all 0.3s;
+	cursor: pointer;
+}
+.hide-btn span{
+	font-size: 30px;
+	line-height: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
