@@ -1,0 +1,427 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #9dabc0;
+	font-family: "Times New Roman";
+	box-sizing: border-box;
+}
+body{
+	background: #f0f0f0;
+}
+a{
+	text-decoration: none;
+}
+header{
+	height: 80px;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	text-align: center;
+	border-radius: 10px;
+	margin: 20px;
+}
+header h1{
+	display: inline-block;
+	font-size: 60px;
+	line-height: 80px;
+}
+header span{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.item-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	padding:50px 30px;
+}
+.item-box{
+	width: 300px;
+	padding:20px 0;
+	margin: 50px 30px;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	text-align: center;
+	border-radius: 20px;
+}
+.item-box div{
+	width: 260px;
+	height: 260px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-btn{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	margin: 5px;
+	text-align: center;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+	box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
+}
+.nav1{
+	 float: left;
+}
+.nav2{
+	 float: right;
+}
+nav{
+	display: none;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: ;
+	text-align: left;
+
+}
+nav ul{
+	display: none;
+	width:250px;
+	height: 100vh;
+	background: #f0f0f0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	border-radius: 20px;
+	margin-left: 20px;
+	list-style: none;
+}
+nav li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 50px;
+	font-size: 14px;
+	font-family: "Hiragino Sans";
+	font-weight: 500;
+	text-align: left;
+	cursor: pointer;
+	transition:all 0.3s;
+	white-space: nowrap;
+}
+nav li:hover{
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+nav span{
+	float: right;
+}
+.hide-btn{
+	padding: 0 45px;
+	height: 96px;
+	text-align: right;
+	transition:all 0.3s;
+	cursor: pointer;
+}
+.hide-btn span{
+	font-size: 30px;
+	line-height: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item1{
+	background-image: url("IMG_1.jpg");
+	background-size: cover;
+}
+.item1:hover{
+	background-image: url("IMG_1b.jpg");
+}
+.item2{
+	background-image: url("IMG_2.jpg");
+	background-size: cover;
+}
+.item2:hover{
+	background-image: url("IMG_2b.jpg");
+}
+.item3{
+	background-image: url("IMG_3.jpg");
+	background-size: cover;
+}
+.item3:hover{
+	background-image: url("IMG_3b.jpg");
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {      /*--------------------------------------スマホ-------------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #9dabc0;
+	font-family: "Times New Roman";
+	box-sizing: border-box;
+}
+body{
+	background: #f0f0f0;
+}
+a{
+	text-decoration: none;
+}
+header{
+	height: 80px;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	text-align: center;
+	border-radius: 10px;
+	margin: 10px 5px;
+}
+header h1{
+	display: inline-block;
+	font-size: 45px;
+	line-height: 80px;
+}
+header span{
+	display: none;
+}
+
+
+
+
+
+
+.item-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	padding:20px 15px;
+}
+.item-box{
+	width: 150px;
+	padding:15px 0;
+	margin: 30px 10px;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	text-align: center;
+	border-radius: 15px;
+}
+.item-box div{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	border-radius: 20px;
+}
+.item-box h2{
+	font-size: 20px;
+}
+.item-box h3{
+	font-size: 15px;
+}
+.item-box p{
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+.nav-btn{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin: 10px;
+	text-align: center;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+	box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
+}
+.nav1{
+	 float: left;
+}
+.nav2{
+	 float: right;
+}
+nav{
+	display: none;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: ;
+	text-align: left;
+
+}
+nav ul{
+	display: none;
+	width:100vw;
+	height: 100vh;
+	background: #f0f0f0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	border-radius: 20px;
+	margin-left: 0px;
+	list-style: none;
+}
+nav li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 50px;
+	font-size: 14px;
+	font-family: "Hiragino Sans";
+	font-weight: 500;
+	text-align: left;
+	cursor: pointer;
+	transition:all 0.3s;
+	white-space: nowrap;
+}
+nav li:hover{
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+nav span{
+	float: right;
+}
+.hide-btn{
+	padding: 0 45px;
+	height: 96px;
+	text-align: right;
+	transition:all 0.3s;
+	cursor: pointer;
+}
+.hide-btn span{
+	font-size: 30px;
+	line-height: 96px;
+}
+
+
+
+
+
+
+
+.item1{
+	background-image: url("IMG_1.jpg");
+	background-size: cover;
+}
+.item1:hover{
+	background-image: url("IMG_1b.jpg");
+}
+.item2{
+	background-image: url("IMG_2.jpg");
+	background-size: cover;
+}
+.item2:hover{
+	background-image: url("IMG_2b.jpg");
+}
+.item3{
+	background-image: url("IMG_3.jpg");
+	background-size: cover;
+}
+.item3:hover{
+	background-image: url("IMG_3b.jpg");
+}
+.item4{
+	background-image: url("IMG_4.jpg");
+	background-size: cover;
+}
+.item4:hover{
+	background-image: url("IMG_4b.jpg");
+}
+.item5{
+	background-image: url("IMG_5.jpg");
+	background-size: cover;
+}
+.item5:hover{
+	background-image: url("IMG_5b.jpg");
+}
+.item6{
+	background-image: url("IMG_6.jpg");
+	background-size: cover;
+}
+.item6:hover{
+	background-image: url("IMG_6b.jpg");
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
