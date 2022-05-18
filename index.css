@@ -4,6 +4,7 @@
 	font-weight: normal;
 	color: #9dabc0;
 	font-family: "Times New Roman";
+	cursor: default;
 }
 body{
 	background: #f0f0f0;
@@ -12,10 +13,14 @@ a{
 	text-decoration: none;
 }
 h1{
-	display: none;
 	font-size: 100px;
 	text-align: center;
 	margin-top: 170px;
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+span{
+	display: none;
+	cursor: pointer;
 }
 
 
@@ -42,6 +47,9 @@ h1{
     cursor: pointer;
 }
 .nav-btn:hover{
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+.nav-btn:active{
 	box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
 }
 .btn-container{
@@ -59,8 +67,12 @@ h1{
 	margin:40px 30px;
 	transition: box-shadow .4s ease-in-out;
 	border-radius: 10px;
+	cursor: pointer;
 }
 .btn-container a:hover{
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+.btn-container a:active{
 	box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
 }
 
@@ -94,28 +106,32 @@ nav li{
 	padding: 0 50px;
 	font-size: 14px;
 	font-family: "Hiragino Sans";
-	font-weight: 500;
+	font-weight: 400;
 	text-align: left;
 	cursor: pointer;
 	transition:all 0.3s;
 	white-space: nowrap;
 }
 nav li:hover{
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+	text-shadow:  2px 2px 4px #d1d1d1;
 }
 nav span{
 	float: right;
+	cursor: pointer;
 }
 .hide-btn{
 	padding: 0 45px;
 	height: 96px;
 	text-align: right;
-	transition:all 0.3s;
-	cursor: pointer;
+	
 }
 .hide-btn span{
 	font-size: 30px;
 	line-height: 96px;
+	cursor: pointer;
+}
+.hide-btn span:hover{
+	text-shadow:  2px 2px 4px #d1d1d1;
 }
 
 
@@ -152,10 +168,13 @@ nav span{
 		text-decoration: none;
 	}
 	h1{
-		display: none;
 		font-size: 65px;
 		text-align: center;
 		margin-top: 200px;
+		text-shadow:  2px 2px 4px #d1d1d1;
+	}
+	span{
+		display: none;
 	}
 
 
@@ -164,10 +183,10 @@ nav span{
 
 
 	.nav-btn{
-		width: 70px;
-		height: 70px;
-		line-height: 70px;
-		margin: 20px;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		margin:20px  15px;
 		text-align: center;
 		font-family: "Font Awesome 5 Free";
 		font-weight: 900;
@@ -179,7 +198,7 @@ nav span{
 	    text-rendering: auto;
 	    box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
 	    border-radius: 10px;
-	    cursor: pointer;
+	    text-shadow:  2px 2px 4px #d1d1d1;
 	}
 	.nav-btn:hover{
 		box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
@@ -205,6 +224,7 @@ nav span{
 		margin:25px 10px;
 		transition: box-shadow .4s ease-in-out;
 		border-radius: 7px;
+		text-shadow:  2px 2px 4px #d1d1d1;
 	}
 	.btn-container a:hover{
 		box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
@@ -241,14 +261,11 @@ nav li{
 	padding: 0 50px;
 	font-size: 14px;
 	font-family: "Hiragino Sans";
-	font-weight: 500;
+	font-weight: 400;
 	text-align: left;
-	cursor: pointer;
 	transition:all 0.3s;
 	white-space: nowrap;
-}
-nav li:hover{
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+	text-shadow:  2px 2px 4px #d1d1d1;
 }
 nav span{
 	float: right;
@@ -258,13 +275,12 @@ nav span{
 	height: 96px;
 	text-align: right;
 	transition:all 0.3s;
-	cursor: pointer;
 }
 .hide-btn span{
 	font-size: 30px;
 	line-height: 96px;
+	text-shadow:  2px 2px 4px #d1d1d1;
 }
-
 
 
 
