@@ -45,7 +45,7 @@ header span{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-around;
-	padding:50px 50px;
+	padding:10px 50px;
 	text-shadow:  1px 1px 2px #d1d1d1;
 }
 .item-box{
@@ -175,7 +175,20 @@ nav span{
 	text-shadow:  2px 2px 4px #d1d1d1;
 }
 
-
+.sub-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+.sub-nav li a{
+	display: inline-block;
+	margin: 0 20px;
+	margin-top: 50px;
+	font-size: 21px;
+	cursor: pointer;
+}
 
 
 
@@ -217,7 +230,7 @@ nav span{
 
 
 
-@media screen and (max-width:480px) {      /*--------------------------------------スマホ-------------------------------------------*/
+@media screen and (max-width:960px) {      /*--------------------------------------スマホ-------------------------------------------*/
 
 *{
 	margin: 0;
@@ -260,7 +273,7 @@ header span{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-around;
-	padding:20px 15px;
+	padding:0px 15px;
 	text-shadow:  1px 1px 2px #d1d1d1;
 }
 .item-box{
@@ -371,7 +384,20 @@ nav span{
 	text-shadow:  2px 2px 4px #d1d1d1;
 }
 
-
+.sub-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+.sub-nav li a{
+	display: inline-block;
+	margin: 0 20px;
+	margin-top: 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
 
 
 
