@@ -7,11 +7,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="apple-touch-icon" href="home.png" sizes="180x180">
 	<link rel="stylesheet" type="text/css" href="item.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 	<style type="text/css">
-		.img{
+		.img,.img-s1{
 			background-image: url("IMG_2.jpg");
 		}
-		.img:hover{
+		.img:hover,.img-s2{
 			background-image: url("IMG_1b.jpg");
 		}
 	</style>
@@ -32,7 +33,12 @@
 		<i class="fa-bars nav-btn nav2"></i>
 	</header>
 	
+	
 	<div class="img-container">
+		<ul class="slider">
+			<li class="slider-item slider-item01"><div class="img-s img-s1"></div></li>
+			<li class="slider-item slider-item02"><div class="img-s img-s2"></div></li>
+		</ul>
 		<div class="img"></div>
 		<h2>SENSE R</h2>
 		<h3>Basic Style hoodie</h3>
@@ -58,6 +64,7 @@
 
 
 	<footer></footer>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="item.js"></script>
 </body>
 </html>

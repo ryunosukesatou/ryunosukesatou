@@ -213,7 +213,9 @@ nav span{
 	box-shadow:inset  6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
 }
 
-
+.slick-slider{
+	display: none !important;
+}
 
 
 
@@ -348,7 +350,8 @@ nav span{
 	text-align: center;
 }
 
-.img-container .img{
+.img-container .img,.img-b{
+	display: none;
 	width: 300px;
 	height: 300px;
 	margin: 0 auto;
@@ -428,19 +431,24 @@ nav span{
 	box-shadow:inset  6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
 }
 
+.slick-slider{
+	display: block !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slider{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-size: cover;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	border-radius: 20px;
+}
+.img-s{
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	border-radius: 20px;
+}
 
 }
